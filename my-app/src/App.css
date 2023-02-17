@@ -4,9 +4,19 @@
   box-sizing: 0;
 }
 
+#root {
+  --primary-color:#ECF2FF;
+  --secondary-color:#e3e0f5;
+  /* --third-color :#E5D1FA; */
+}
+
+.body{
+  background-color: var(--primary-color);
+}
+
 .container{
   max-width: 80%;
-  /* background-color: rgb(255, 205, 205); */
+  background-color: var(--secondary-color);
   min-height: 100vh;
   margin: 0 auto;
 }

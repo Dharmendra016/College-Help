@@ -13,19 +13,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <div className="nav-bar">
-        <nav >
-          <ul className="nav-items">
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">About</a> </li>
-            <li> <a href="#">Sign up</a></li>
-            <li> <a href="#">Login</a> </li>
-          </ul>
-        </nav>
+    <div className="body">
+      <div className="container">
+        <div className="nav-bar">
+          <nav >
+            <ul className="nav-items">
+              <li> <a href="#">Home</a> </li>
+              <li> <a href="#">About</a> </li>
+              <li> <a href="#">Sign up</a></li>
+              <li> <a href="#">Login</a> </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-
   );
 }
 
