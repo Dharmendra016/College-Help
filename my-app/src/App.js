@@ -16,14 +16,21 @@ function App() {
     <div className="body">
       <div className="container">
         <div className="nav-bar">
+          <div className="logo">logo</div>
           <nav >
             <ul className="nav-items">
               <li> <a href="#">Home</a> </li>
-              <li> <a href="#">About</a> </li>
-              <li> <a href="#">Sign up</a></li>
-              <li> <a href="#">Login</a> </li>
+              <li> <a href="#">Courses</a> </li>
+              <li> <a href="#">About</a></li>
+              <li> <a href="#">Blog</a> </li>
+              <li> <a href="#">Contact</a> </li>
+              <div className="btns">
+                <button className ="primary-btn">Join</button>
+                <button className="secondary-btn">Log in</button>
+              </div>
             </ul>
           </nav>
+          
         </div>
       </div>
     </div>
